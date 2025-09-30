@@ -1,0 +1,6 @@
+# Ignore compiled JSON files from Bicep builds
+*.json
+
+# Ignore parameter files that might contain secrets.
+# Note: Parameter files with Key Vault references are safe to commit.
+*.parameters.json
